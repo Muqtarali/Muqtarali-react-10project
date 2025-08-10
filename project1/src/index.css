@@ -1,0 +1,183 @@
+.header{
+ width: 1440px;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.img{
+  width: 76px;
+  height: 42.75px;
+  top: 15px;
+  left: 85px;
+}
+.header-list{
+  list-style: none;
+  width: 333px;
+  height: 24px;
+  /* padding-top:24px; */
+  gap: 24px;
+  display: flex;
+  justify-content: space-between;
+  font-size: medium;
+  font-family: 'Inter', sans-serif;
+}
+.header-list a {
+  text-decoration: none;
+  color: inherit;  /* This will use the parent element's text color */
+}
+
+.header-button {
+
+  width: 75px;
+  height: 31px;
+  background: #D01C28;
+  border-radius: 8px;
+  top: 21px;
+  left: 128px;
+  padding: 6px 16px 6px 10px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.freame-container{
+  width: 1125px;
+  height: 600px;
+  top: 125px;
+  left: 157px;
+  gap:36px;
+  display: flex;
+}
+
+.freame-text {
+  width: 595px;  /* Added px unit */
+  height: 290px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-style: normal;  /* ExtraBold is controlled by font-weight */
+  font-size: 108px;
+  line-height: 102px;
+   text-align: left;
+    padding-left: 20px;
+  letter-spacing: 0;
+  
+}
+.freame-body{
+  width: 404px;
+  height: 91px;
+  font: popins;
+  font-weight: 600;
+  font-style: small-bold;
+  font-size: 16px;
+  line-height: 100%;
+  color: #5A5959;
+  text-align: left;
+  letter-spacing: 0.01em;
+  margin-top: 50px;
+  padding-left: 50px;
+}
+.freame-button {
+  width: 313px;
+  height: 41x;
+  padding: 6px 16px 6px 10px;
+  gap: 40px;
+  display: flex;
+  justify-content: center;
+}
+.freame-button1{
+  background-color: #D01C28;
+  border-radius: 5px;
+  color: #FFFFFF;
+}
+
+.freame-category{
+  border-radius: 5px;
+}
+.freame-available{
+  width: 131px;
+  height: 67px;
+  text-align: left;
+  background-color: #F5F5F5;  
+   padding-left: 50px;
+   
+}
+.img1{
+  width: 32px;
+  height: 32px;
+  margin-bottom: 15px;  /* Added space below image */
+  display: block;  /* Makes image stack properly */
+}
+.img2{
+  width: 32px;
+  height: 32px;
+  
+}
+
+.freame-1{
+  width: 750px;  /* Increased from 600px */
+  height: 750px; /* Increased from 600px */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.freame-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform: scale(1.1); /* Added 10% scaling for extra size */
+}
+.contect{
+  width: 315px;
+  height: 72px;
+  left: 143px;
+  top: 188px;
+   font-family: 'Poppins', sans-serif;
+   
+ 
+}
+.contect-para{
+  width: 975px;
+  height: 72px;
+  left: 188px;
+  top: 220px;
+
+}
+.contect-para h1{
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 72px;
+  color: #5A5959;
+   font-family: 'Poppins', sans-serif;
+
+  
+}
+.Contect_main{
+  width: 1600px;
+  height: 600px;
+  left: 183px;
+  top: 286px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.Contect_form{
+  width: 540px;  /* Fixed typo from 44-px */
+  height: auto;  /* Changed from fixed height */
+  left: 183px;
+  top: 286px;
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  /* Added to stack items vertically */
+  gap: 20px;  /* Space between elements */
+}
+.Contect_form label {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-weight: 500;
+  color: #5A5959;
+}
